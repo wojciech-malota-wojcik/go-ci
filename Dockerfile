@@ -4,6 +4,7 @@ ENV PATH="/root/go/bin:${PATH}"
 RUN dnf --setopt=install_weak_deps=False --best -y install \
     golang \
     nodejs \
+    npm \
     git \
     diffutils && \
   go get github.com/vugu/vgrun && \
