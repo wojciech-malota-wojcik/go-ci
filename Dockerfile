@@ -5,6 +5,7 @@ RUN dnf --setopt=install_weak_deps=False --best -y install \
     golang \
     nodejs \
     npm \
+    vips \
     git \
     diffutils && \
   go get github.com/vugu/vgrun && \
